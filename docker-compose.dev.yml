@@ -1,0 +1,15 @@
+version: "2"
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      PORT: 4010
+    volumes:
+      # 지금은 어떤것을 설정해야 하지 몰라서 디렉토리 전체를 걸어놨는데 추후 변경해야 한다.
+      - ./:/app
+    ports:
+      - "4010:4010"
+    expose:
+      - "4010"
