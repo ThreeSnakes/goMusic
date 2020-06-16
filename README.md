@@ -11,6 +11,7 @@ reflex가 적용되어 있어 Hot-reload가 가능하다.
 - Docker
 - Golang
 - gin
+- React
 
 ## Requirements
 
